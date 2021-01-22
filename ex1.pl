@@ -69,5 +69,5 @@ winner(H1,H2, C,X):-
     filter(C,H2,C2),
     lowest(C1,X1),
     lowest(C2,X2),
-	cmp_card(X1,X2,X)
+    cmp_card(X1,X2,X)
 .
